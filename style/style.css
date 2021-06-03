@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+/* Typography */
+
+html {
+  font-size: 62.5%;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1.6rem;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+ul {
+  list-style: none;
+}
+
+#header {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo a {
+  padding-left: 2rem;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #6070ff;
+  flex-wrap: nowrap;
+}
+
+.navbar {
+  height: 100%;
+}
+
+.navbar .menu {
+  height: 100%;
+  line-height: 50px;
+  padding-right: 2.5rem;
+}
+
+.navbar .menu .bx {
+  font-size: 3rem;
+  color: #6070ff;
+  line-height: 50px;
+}
+
+.main-container {
+  width: 100%;
+  height: 100%;
+}
+
+.headline {
+  width: 100%;
+  height: calc(718px - 60px);
+  background-image: url("/images/header-shapes.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.headline h1 {
+  width: 70%;
+  max-width: 300px;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 55px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #172b4d;
+  padding: 10rem 2.5rem 0 2.5rem;
+}
+
+.headline p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  margin-top: -20px;
+  color: #344563;
+  padding: 0 2.5rem;
+}
+
+.headline .connect {
+  color: #6070ff;
+  font-weight: 500;
+  padding: 0 2.5rem;
+}
+
+.social-media {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+  margin-top: 2.4rem;
+}
+
+.social-media svg {
+  margin-right: 1.8rem;
+}

@@ -1,1 +1,42 @@
-# Microverse_Portfolio
+
+# Portfolio
+ My Portfolio 
+ 
+ -This is the portfolio page clone,the view:
+  ![image1](https://user-images.githubusercontent.com/57562869/120642178-d98bcb80-c474-11eb-9c55-5e90381b90cc.png)
+
+## Materials required for validation
+
+- follow this link :
+  https://github.com/microverseinc/linters-config/tree/master/html-css
+
+## Built With
+
+- HTML
+- CSS
+
+
+## Get Started
+
+To get a local copy up and running follow these simple example steps.
+
+1. Clone the Repo or Download the Zip file
+2. Run the live server or simply open index.html with your browser.
+
+## Authors
+
+👤 **Author**
+
+- GitHub: [@githubhandle](https://github.com/moise10r)
+- Twitter: [@twitterhandle](https://twitter.com/MRushanika)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/nganulo-rushanika-mo%C3%AFse-626139197/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
