@@ -52,6 +52,7 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  overflow: hidden;
 }
 
 .logo a {
@@ -147,6 +148,7 @@ ul {
   grid-row-gap: 8rem;
   background-color: #f5f5f5;
   padding-bottom: 10rem;
+  overflow: hidden;
 }
 
 .card-work {
@@ -236,10 +238,10 @@ ul {
 .about-me {
   width: 100%;
   margin-bottom: 8rem;
+  overflow: hidden;
 }
 
 .about-me .title {
-  width: 70%;
   max-width: 300px;
   font-size: 4rem;
   font-style: normal;
@@ -274,4 +276,104 @@ ul {
 .about-me .resume-btn {
   margin-left: 2rem;
   margin-top: 2rem;
+}
+
+.about-me .knowledges {
+  width: 100%;
+  margin-top: 4rem;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+}
+
+.knowledges .knowledge {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.knowledge .title span:first-child {
+  padding-left: 3rem;
+  color: #000;
+  font-size: 2rem;
+}
+
+.knowledges .knowledge .title {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  font-size: 1.6rem;
+  padding: 1rem 0;
+  font-weight: 400;
+  position: relative;
+}
+
+.knowledges .knowledge .title::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 3rem;
+  width: 95%;
+  height: 1px;
+  background-color: #dfe1e6;
+}
+
+.knowledges .knowledge:first-child .title::after {
+  display: none;
+}
+
+.knowledge .languages {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 3rem;
+  margin-top: 2rem;
+}
+
+.knowledge .languages li {
+  display: flex;
+  align-items: center;
+  background-color: #f7f7f9;
+  height: 66.72px;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+}
+
+.knowledge .languages li img {
+  padding: 0 1.8rem;
+}
+
+.knowledge .languages li a {
+  color: #253858;
+  font-size: 15px;
+}
+
+.knowledge .frameworks {
+  /* display: flex; */
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 3rem;
+  margin-top: 2rem;
+  display: none;
+}
+
+.knowledge .frameworks li {
+  display: flex;
+  align-items: center;
+  background-color: #f7f7f9;
+  height: 66.72px;
+  width: 100%;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+}
+
+.knowledge .frameworks li img {
+  padding: 0 1.8rem;
+}
+
+.knowledge .frameworks li a {
+  color: #253858;
+  font-size: 15px;
 }
