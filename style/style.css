@@ -47,6 +47,49 @@ ul {
   line-height: 24px;
 }
 
+.btn_2 {
+  display: inline-block;
+  padding: 1rem;
+  border: 1px solid #6070ff;
+  border-radius: 1rem;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 0.03em;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  background-color: #6070ff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+}
+
+.btn_3 {
+  display: inline-block;
+  padding: 1rem;
+  border: 1px solid #2230d2;
+  border-radius: 1rem;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 0.03em;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  background-color: #2230d2;
+}
+
+.btn_4 {
+  display: inline-block;
+  padding: 1rem;
+  border: 1px solid#5E6c84;
+  border-radius: 1rem;
+  color: #5e6c84;
+  text-align: center;
+  letter-spacing: 0.03em;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  background-color: #fff;
+}
+
 #header {
   width: 100%;
   height: 60px;
