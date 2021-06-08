@@ -6,6 +6,7 @@ html {
   font-size: 62.5%;
   font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
+  width: 100%;
 }
 
 * {
@@ -132,7 +133,7 @@ ul {
 .headline {
   width: 100%;
   height: calc(718px - 60px);
-  background-image: url("/images/header-shapes.png");
+  background-image: url("./images/header-shapes.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -194,6 +195,7 @@ ul {
   grid-row-gap: 8rem;
   padding-bottom: 10rem;
   padding-top: 5rem;
+  padding-right: 2rem;
 }
 
 .card-work {
