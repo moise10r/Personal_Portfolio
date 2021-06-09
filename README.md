@@ -5,8 +5,6 @@
  -This is the portfolio page clone,the view:
 ![mobile_version](https://user-images.githubusercontent.com/57562869/121330386-40e2c900-c916-11eb-89dc-42ccef133b20.png)
 
-## live demo
-https://nifty-benz-9ca5cc.netlify.app/
 
 ## Materials required for validation
 
