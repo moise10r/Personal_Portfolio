@@ -3,7 +3,7 @@
  My Portfolio 
  
  -This is the portfolio page clone,the view:
-![portfolio_full_screen](https://user-images.githubusercontent.com/57562869/120849400-5a7ebc00-c576-11eb-8f0c-a32e6351b344.png)
+![mobile_version](https://user-images.githubusercontent.com/57562869/121330386-40e2c900-c916-11eb-89dc-42ccef133b20.png)
 
 
 ## Materials required for validation
@@ -26,7 +26,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author**
+👤 NGANULO RUSHANIKA Moise
 
 - GitHub: [@githubhandle](https://github.com/moise10r)
 - Twitter: [@twitterhandle](https://twitter.com/MRushanika)
