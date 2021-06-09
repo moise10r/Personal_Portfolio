@@ -20,6 +20,7 @@ body {
   font-size: 1.6rem;
   background-color: #f5f5f5;
   overflow-x: hidden;
+  width: 100%;
 }
 
 a {
@@ -199,11 +200,11 @@ ul {
 }
 
 .card-work {
-  padding: 0 3rem;
+  padding: 0 2rem;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  width: 75%;
+  width: 85%;
   max-width: 320px;
   border-radius: 16px;
   background-color: #fff;
@@ -213,6 +214,11 @@ ul {
 .card-work .portfolio-img {
   padding-top: 3rem;
   align-self: center;
+  width: 100%;
+}
+
+.card-work .portfolio-img img {
+  max-width: 100%;
 }
 
 .card-work .title {
@@ -484,7 +490,12 @@ ul {
 
 .contact-main-container form .form-group li {
   width: 90%;
+  max-width: 441px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
 }
 
 .contact-main-container form .form-group li input {
@@ -529,6 +540,7 @@ ul {
   line-height: 24px;
   margin-top: 2rem;
   background-color: #fff;
+  align-self: flex-start;
 }
 
 .bar {

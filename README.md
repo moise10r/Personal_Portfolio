@@ -26,7 +26,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author**
+👤 NGANULO RUSHANIKA Moise
 
 - GitHub: [@githubhandle](https://github.com/moise10r)
 - Twitter: [@twitterhandle](https://twitter.com/MRushanika)
