@@ -553,6 +553,7 @@ li {
   margin-top: 2rem;
   background-color: #fff;
   align-self: flex-start;
+  margin-bottom: 4rem;
 }
 
 .bar {
@@ -578,6 +579,10 @@ li {
     height: 100%;
     width: 100%;
     object-fit: fill;
+  }
+
+  .contact-main-container {
+    padding-bottom: 8rem;
   }
 }
 
@@ -671,6 +676,10 @@ li {
     max-width: 400px;
   }
 
+  .contact-main-container {
+    padding-bottom: 8rem;
+  }
+
   .contact-main-container form .form-group li button {
     align-self: center;
   }
@@ -702,6 +711,7 @@ li {
 
   .contact-main-container {
     background-image: url("../images/contact-form-back.png");
+    padding-bottom: 5rem;
   }
 
   .contact-main-container .detail {
