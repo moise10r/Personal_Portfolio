@@ -706,3 +706,119 @@ li {
     margin: 0 auto;
   }
 }
+
+@media screen and (min-width: 992px) {
+  .headline h1 {
+    padding-top: 23rem;
+    padding-left: 25rem;
+  }
+
+  .headline p {
+    padding: 0 25rem;
+    margin-top: 1rem;
+  }
+
+  .headline .connect {
+    padding: 0 25rem;
+  }
+
+  .headline .social-media {
+    padding: 0 25rem;
+  }
+
+  .card-work {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem 2rem;
+  }
+
+  .card-work:nth-child(2n+2) {
+    flex-direction: row-reverse;
+  }
+
+  .card-work .right-content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 4rem;
+    padding-top: 2rem;
+    width: 50%;
+  }
+
+  .card-work .portfolio-img {
+    width: 50%;
+  }
+
+  .card-work .portfolio-img img {
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    object-fit: fill;
+    padding-top: 0;
+  }
+
+  .card-work .detail p {
+    width: 80%;
+  }
+
+  .card-work .see-project {
+    margin-top: 4rem;
+  }
+
+  .about-me {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+  }
+
+  .about-me .knowledges {
+    width: 58%;
+    margin-top: 0;
+    padding-top: 18rem;
+  }
+
+  .about-me .left-content {
+    width: 42%;
+  }
+
+  .knowledges .knowledge {
+    width: 80%;
+    margin: 0 auto;
+    justify-content: flex-start;
+  }
+
+  .knowledge .languages {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-self: flex-start;
+  }
+
+  .knowledge .languages li {
+    flex-direction: column;
+    width: 124px;
+    height: 122px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+    margin-top: 0;
+  }
+
+  .about-me .title {
+    max-width: 200px;
+  }
+
+  .knowledge .kn_1 {
+    max-width: 600px;
+    padding: 1rem 0;
+  }
+
+  .contact-main-container {
+    padding-bottom: 8rem;
+  }
+
+  .bar {
+    display: none;
+  }
+}
