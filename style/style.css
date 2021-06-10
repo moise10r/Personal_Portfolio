@@ -441,6 +441,10 @@ li {
   font-size: 15px;
 }
 
+.card-work .languages li.hide {
+  display: none;
+}
+
 .contact-section {
   width: 100%;
   background-color: #fff;
@@ -765,6 +769,10 @@ li {
 
   .card-work .see-project {
     margin-top: 4rem;
+  }
+
+  .card-work .languages li.hide {
+    display: block;
   }
 
   .about-me {
