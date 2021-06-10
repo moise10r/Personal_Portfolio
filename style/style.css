@@ -730,6 +730,7 @@ li {
   .headline p {
     padding: 0 25rem;
     margin-top: 1rem;
+    width: 680px;
   }
 
   .headline .connect {

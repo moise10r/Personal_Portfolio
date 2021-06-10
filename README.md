@@ -3,7 +3,8 @@
  My Portfolio 
  
  -This is the portfolio page clone,the view:
-![mobile_version](https://user-images.githubusercontent.com/57562869/121330386-40e2c900-c916-11eb-89dc-42ccef133b20.png)
+![home_page](https://user-images.githubusercontent.com/57562869/121547713-aca75d80-ca0c-11eb-921f-0286bf87b782.png)
+
 
 
 ## Materials required for validation
