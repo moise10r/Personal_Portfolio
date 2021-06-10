@@ -35,6 +35,11 @@ input {
 
 ul {
   list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 0;
 }
 
 .btn {
@@ -115,6 +120,10 @@ ul {
   height: 100%;
 }
 
+.nav-list {
+  display: none;
+}
+
 .navbar .menu {
   height: 100%;
   line-height: 50px;
@@ -159,10 +168,8 @@ ul {
 
 .headline p {
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0;
   text-align: left;
   color: #344563;
   padding: 0 2.5rem;
@@ -200,21 +207,19 @@ ul {
 }
 
 .card-work {
-  padding: 0 2rem;
+  padding: 2rem 2rem;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
   width: 85%;
-  max-width: 320px;
   border-radius: 16px;
   background-color: #fff;
   border: 1px solid #dfe1e6;
 }
 
 .card-work .portfolio-img {
-  padding-top: 3rem;
-  align-self: center;
   width: 100%;
+  text-align: center;
 }
 
 .card-work .portfolio-img img {
@@ -285,7 +290,8 @@ ul {
 
 .card-work .see-project {
   width: 100%;
-  margin: 2.5rem 0;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .about-me {
@@ -294,7 +300,7 @@ ul {
   background-color: #fff;
   border-top-right-radius: 5rem;
   padding-top: 5rem;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
 }
 
 .about-me .title {
@@ -343,46 +349,49 @@ ul {
 }
 
 .knowledges .knowledge {
-  width: 100%;
+  width: 80%;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  padding: 0 3.5rem;
 }
 
-.knowledge .title span:first-child {
-  padding-left: 3rem;
-  color: #000;
-  font-size: 2rem;
-}
-
-.knowledges .knowledge .title {
-  display: flex;
+.knowledge .kn_1 {
+  display: inline-flex;
+  width: 100%;
   justify-content: space-between;
-  align-content: center;
+  align-items: center;
   font-size: 1.6rem;
-  padding: 1rem 0;
   font-weight: 400;
   position: relative;
+  padding: 3rem 0;
+  color: #000;
 }
 
-.knowledges .knowledge .title::after {
+.knowledges .knowledge .kn_1 span i {
+  color: #acb7c3;
+}
+
+.knowledges .knowledge .kn_1::after {
   position: absolute;
   content: "";
   bottom: 0;
-  left: 3rem;
-  width: 95%;
+  width: 100%;
   height: 1px;
   background-color: #dfe1e6;
 }
 
-.knowledges .knowledge:first-child .title::after {
+.knowledges .knowledge:first-child .kn_1::after {
   display: none;
 }
 
 .knowledge .languages {
+  width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
-  padding: 0 3rem;
   margin-top: 2rem;
 }
 
@@ -392,7 +401,6 @@ ul {
   background-color: #f7f7f9;
   height: 66.72px;
   width: 100%;
-  max-width: 300px;
   margin-bottom: 2rem;
   border-radius: 8px;
 }
@@ -431,6 +439,10 @@ ul {
 .knowledge .frameworks li a {
   color: #253858;
   font-size: 15px;
+}
+
+.card-work .languages li.hide {
+  display: none;
 }
 
 .contact-section {
@@ -541,6 +553,7 @@ ul {
   margin-top: 2rem;
   background-color: #fff;
   align-self: flex-start;
+  margin-bottom: 4rem;
 }
 
 .bar {
@@ -552,4 +565,279 @@ ul {
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #0d151e;
+}
+
+/* Media queries */
+
+@media screen and (min-width: 500px) {
+  .card-work {
+    width: 85%;
+    max-width: 380px;
+  }
+
+  .card-work .portfolio-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+  }
+
+  .contact-main-container {
+    padding-bottom: 8rem;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .logo a {
+    padding-left: 10rem;
+  }
+
+  .nav-list {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-right: 10rem;
+  }
+
+  .nav-list li {
+    margin-left: 2.3rem;
+  }
+
+  .nav-list li a {
+    color: rgb(52, 69, 99);
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .headline h1 {
+    padding-top: 15rem;
+    padding-left: 8rem;
+  }
+
+  .headline p {
+    padding: 0 8rem;
+    margin-top: 1rem;
+  }
+
+  .headline .connect {
+    padding: 0 8rem;
+  }
+
+  .headline .social-media {
+    padding: 0 8rem;
+  }
+
+  .card-work {
+    width: 85%;
+    max-width: 380px;
+  }
+
+  .card-work .portfolio-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+  }
+
+  .about-me .title {
+    padding-top: 15rem;
+    padding-left: 8rem;
+  }
+
+  .about-me .info {
+    padding: 0 8rem;
+    margin-top: 1rem;
+  }
+
+  .about-me .connect {
+    padding: 0 8rem;
+  }
+
+  .about-me .social-media {
+    padding: 0 8rem;
+  }
+
+  .about-me .resume-btn {
+    margin-left: 8rem;
+  }
+
+  .knowledge {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .knowledges .knowledge {
+    width: 90%;
+  }
+
+  .knowledge .kn_1 {
+    max-width: 400px;
+  }
+
+  .knowledge .languages li {
+    max-width: 400px;
+  }
+
+  .contact-main-container {
+    padding-bottom: 8rem;
+  }
+
+  .contact-main-container form .form-group li button {
+    align-self: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .headline {
+    background-image: url("../images/header-desk-back.png");
+  }
+
+  .card-work {
+    width: 85%;
+    max-width: 480px;
+  }
+
+  .card-work .portfolio-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+  }
+
+  .knowledge .kn_1 {
+    max-width: 480px;
+  }
+
+  .knowledge .languages li {
+    max-width: 480px;
+  }
+
+  .contact-main-container {
+    background-image: url("../images/contact-form-back.png");
+    padding-bottom: 5rem;
+  }
+
+  .contact-main-container .detail {
+    width: 80%;
+    max-width: 569px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .headline h1 {
+    padding-top: 23rem;
+    padding-left: 25rem;
+  }
+
+  .headline p {
+    padding: 0 25rem;
+    margin-top: 1rem;
+    width: 680px;
+  }
+
+  .headline .connect {
+    padding: 0 25rem;
+  }
+
+  .headline .social-media {
+    padding: 0 25rem;
+  }
+
+  .card-work {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem 2rem;
+  }
+
+  .card-work:nth-child(2n+2) {
+    flex-direction: row-reverse;
+  }
+
+  .card-work .right-content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 4rem;
+    padding-top: 2rem;
+    width: 50%;
+  }
+
+  .card-work .portfolio-img {
+    width: 50%;
+  }
+
+  .card-work .portfolio-img img {
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    object-fit: fill;
+    padding-top: 0;
+  }
+
+  .card-work .detail p {
+    width: 80%;
+  }
+
+  .card-work .see-project {
+    margin-top: 4rem;
+  }
+
+  .card-work .languages li.hide {
+    display: block;
+  }
+
+  .about-me {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+  }
+
+  .about-me .knowledges {
+    width: 58%;
+    margin-top: 0;
+    padding-top: 18rem;
+  }
+
+  .about-me .left-content {
+    width: 42%;
+  }
+
+  .knowledges .knowledge {
+    width: 80%;
+    margin: 0 auto;
+    justify-content: flex-start;
+  }
+
+  .knowledge .languages {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-self: flex-start;
+  }
+
+  .knowledge .languages li {
+    flex-direction: column;
+    width: 124px;
+    height: 122px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+    margin-top: 0;
+  }
+
+  .about-me .title {
+    max-width: 200px;
+  }
+
+  .knowledge .kn_1 {
+    max-width: 600px;
+    padding: 1rem 0;
+  }
+
+  .contact-main-container {
+    padding-bottom: 8rem;
+  }
+
+  .bar {
+    display: none;
+  }
 }
