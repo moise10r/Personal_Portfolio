@@ -672,3 +672,37 @@ li {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .headline {
+    background-image: url("../images/header-desk-back.png");
+  }
+
+  .card-work {
+    width: 85%;
+    max-width: 480px;
+  }
+
+  .card-work .portfolio-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+  }
+
+  .knowledge .kn_1 {
+    max-width: 480px;
+  }
+
+  .knowledge .languages li {
+    max-width: 480px;
+  }
+
+  .contact-main-container {
+    background-image: url("../images/contact-form-back.png");
+  }
+
+  .contact-main-container .detail {
+    width: 80%;
+    max-width: 569px;
+    margin: 0 auto;
+  }
+}
