@@ -5,8 +5,9 @@
  -This is the portfolio page clone,the view:
 ![home_page](https://user-images.githubusercontent.com/57562869/121547713-aca75d80-ca0c-11eb-921f-0286bf87b782.png)
 
-
-
+## live demo
+- this is the link for the live demo
+https://gracious-bhabha-0c8983.netlify.app/
 ## Materials required for validation
 
 - follow this link :
