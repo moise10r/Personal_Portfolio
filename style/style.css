@@ -116,6 +116,21 @@ li {
   flex-wrap: nowrap;
 }
 
+.logo:hover {
+  animation-name: rotate;
+  animation-duration: 1.7s;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 .navbar {
   height: 100%;
 }
