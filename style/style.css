@@ -241,6 +241,11 @@ li {
   max-width: 100%;
 }
 
+.portfolio-img img:hover {
+  transform: scale(0.9);
+}
+
+
 .card-work .title {
   width: 100%;
   margin-bottom: 1rem;
