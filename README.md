@@ -7,7 +7,7 @@
 
 ## live demo
 - this is the link for the live demo
-https://moise10r.github.io/Personal_Portfolio/
+https://gracious-bhabha-0c8983.netlify.app/
 ## Materials required for validation
 
 - follow this link :
