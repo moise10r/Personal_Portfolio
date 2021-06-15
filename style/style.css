@@ -673,13 +673,14 @@ li {
   }
 
   .nav-list li {
-    margin-left: 2.3rem;
+    margin-left: 2rem;
   }
 
   .nav-list li a {
     color: rgb(52, 69, 99);
     font-size: 15px;
     font-weight: 500;
+    padding: 0 1.5rem;
   }
 
   .headline h1 {
