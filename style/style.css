@@ -627,7 +627,7 @@ li {
 
 .contact-main-container form .form-group li input:focus,
 .contact-main-container form .form-group li textarea:focus {
-  border: 1px solid rgb(137, 191, 245);
+  border: 1px solid #f7893a;
 }
 
 .bar {
