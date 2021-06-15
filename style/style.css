@@ -574,6 +574,7 @@ li {
   text-indent: 2rem;
   resize: none;
   border: none;
+  outline: none;
 }
 
 .contact-main-container form .form-group li button {
