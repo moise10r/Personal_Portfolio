@@ -14,6 +14,10 @@ html {
   padding: 0;
 }
 
+label {
+  display: none;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -56,7 +60,21 @@ li {
   transition: ease color 2s;
 }
 
-.btn_2 {
+.btn.enabled {
+  display: inline-block;
+  padding: 1rem;
+  border: 1px solid #6070ff;
+  border-radius: 1rem;
+  color: #396df2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  transition: ease color 2s;
+}
+
+.btn.active {
   display: inline-block;
   padding: 1rem;
   border: 1px solid #6070ff;
@@ -72,7 +90,7 @@ li {
   transition: ease color 2s;
 }
 
-.btn_3 {
+.btn:hover {
   display: inline-block;
   padding: 1rem;
   border: 1px solid #2230d2;
@@ -87,7 +105,22 @@ li {
   transition: ease color 2s;
 }
 
-.btn_4 {
+.btn:focus {
+  display: inline-block;
+  padding: 1rem;
+  border: 1px solid #2230d2;
+  border-radius: 1rem;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 0.03em;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  background-color: #2230d2;
+  transition: ease color 2s;
+}
+
+.btn.disabled {
   display: inline-block;
   padding: 1rem;
   border: 1px solid#5E6c84;
@@ -102,14 +135,6 @@ li {
   transition: ease color 2s;
 }
 
-.btn:hover,
-.btn_2:hover,
-.btn_3:hover,
-.btn_4:hover {
-  background-color: dodgerblue;
-  color: white;
-}
-
 #header {
   width: 100%;
   height: 60px;
@@ -120,8 +145,11 @@ li {
   background-color: #fff;
 }
 
-.logo a {
+.logo {
   padding-left: 2rem;
+}
+
+.logo a {
   font-weight: 700;
   font-size: 2rem;
   color: #6070ff;
@@ -593,6 +621,19 @@ li {
   margin-bottom: 4rem;
 }
 
+.contact-main-container form .form-group li button:hover {
+  transform: translateY(10px) scale(1);
+}
+
+.contact-main-container form .form-group li button:focus {
+  transform: translateY(10px) scale(1);
+}
+
+.contact-main-container form .form-group li input:focus,
+.contact-main-container form .form-group li textarea:focus {
+  border: 1px solid #f7893a;
+}
+
 .bar {
   position: absolute;
   bottom: 1rem;
@@ -636,13 +677,14 @@ li {
   }
 
   .nav-list li {
-    margin-left: 2.3rem;
+    margin-left: 2rem;
   }
 
   .nav-list li a {
     color: rgb(52, 69, 99);
     font-size: 15px;
     font-weight: 500;
+    padding: 0 1.5rem;
   }
 
   .headline h1 {
