@@ -643,13 +643,18 @@ li {
   background-color: #0d151e;
 }
 
+.bur-effect {
+  width: 100%;
+  height: calc(718px - 60px);
+  filter: blur(5px);
+}
 #header.open {
   height: 100vh;
   width: 100%;
   background-color: #6070ff;
   display: flex;
   position: absolute;
-  opacity: 0.96;
+  opacity: 0.87;
   z-index: 1;
   animation: slide 1s ease-out;
 }
@@ -660,7 +665,7 @@ li {
   }
 
   100% {
-    transform: translateX(100vw);
+    transform: translateX(0);
   }
 }
 
