@@ -723,10 +723,6 @@ li {
     padding-left: 10rem;
   }
 
-  #header.open {
-    display: none;
-  }
-
   .nav-list {
     height: 100%;
     display: flex;
