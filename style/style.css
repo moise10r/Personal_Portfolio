@@ -643,6 +643,62 @@ li {
   background-color: #0d151e;
 }
 
+#header.open {
+  height: 100vh;
+  width: 100%;
+  background-color: #6070ff;
+  display: flex;
+  position: absolute;
+  opacity: 0.96;
+  z-index: 1;
+}
+
+#header.open .logo {
+  display: none;
+}
+
+#header.open .navbar {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding-top: 10rem;
+  padding-left: 3rem;
+}
+
+#header.open .navbar .menu {
+  display: none;
+}
+
+#header.open .navbar .close {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 2rem;
+  right: 2rem;
+}
+
+#header.open .navbar .close .fa {
+  font-size: 24px;
+  color: #fff;
+}
+
+#header.open .navbar .nav-list {
+  display: block;
+}
+
+#header.open .navbar .nav-list li {
+  margin-bottom: 2rem;
+}
+
+#header.open .navbar .nav-list li a {
+  font-size: 32px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+}
+
 /* Media queries */
 
 @media screen and (min-width: 500px) {
@@ -665,6 +721,10 @@ li {
 @media screen and (min-width: 600px) {
   .logo a {
     padding-left: 10rem;
+  }
+
+  #header.open {
+    display: none;
   }
 
   .nav-list {
@@ -917,60 +977,4 @@ li {
   .bar {
     display: none;
   }
-}
-
-#header.open {
-  height: 100vh;
-  width: 100%;
-  background-color: #6070ff;
-  display: flex;
-  position: absolute;
-  opacity: 0.96;
-  z-index: 1;
-}
-
-#header.open .logo {
-  display: none;
-}
-
-#header.open .navbar {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  padding-top: 10rem;
-  padding-left: 3rem;
-}
-
-#header.open .navbar .menu {
-  display: none;
-}
-
-#header.open .navbar .close {
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  top: 2rem;
-  right: 2rem;
-}
-
-#header.open .navbar .close .fa {
-  font-size: 24px;
-  color: #fff;
-}
-
-#header.open .navbar .nav-list {
-  display: block;
-}
-
-#header.open .navbar .nav-list li {
-  margin-bottom: 2rem;
-}
-
-#header.open .navbar .nav-list li a {
-  font-size: 32px;
-  font-weight: 600;
-  color: rgb(255, 255, 255);
 }
