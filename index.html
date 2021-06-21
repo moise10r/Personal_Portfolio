@@ -35,14 +35,18 @@
 			</div>
 			<nav class="navbar">
 				<ul class="nav-list">
-					<li><a href="#">Portfolio</a></li>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Contact</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#contact">Contact</a></li>
 				</ul>
 				<div class="menu">
 					<i class="bx bx-menu"></i>
 				</div>
+				<div class="close">
+					<i class="fa fa-times"></i>
+				</div>
 			</nav>
+			<div class="bar"></div>
 		</header>
 		<main class="main-container">
 			<section class="headline">
@@ -147,7 +151,7 @@
 					</li>
 				</ul>
 			</section>
-			<section class="works-section">
+			<section id="portfolio" class="works-section">
 				<ul class="works">
 					<li class="card-work">
 						<a class="portfolio-img" href="#">
@@ -280,7 +284,7 @@
 					</li>
 				</ul>
 			</section>
-			<section class="about-me">
+			<section id="about" class="about-me">
 				<div class="left-content">
 					<h2 class="title">About Myself</h2>
 					<p class="info">
@@ -454,7 +458,7 @@
 					</li>
 				</ul>
 			</section>
-			<section class="contact-section">
+			<section id="contact" class="contact-section">
 				<div class="contact-main-container">
 					<h2 class="title_contact">Contact me</h2>
 					<p class="detail">
@@ -463,7 +467,7 @@
 						to help with it
 					</p>
 					<form
-						id="contact"
+						id="contact-form"
 						action="https://formspree.io/f/mrgrkgvy"
 						method="POST"
 					>
@@ -516,5 +520,6 @@
 				</div>
 			</section>
 		</main>
+		<script src="./js/script.js"></script>
 	</body>
 </html>
