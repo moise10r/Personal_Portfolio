@@ -643,11 +643,6 @@ li {
   background-color: #0d151e;
 }
 
-.bur-effect {
-  width: 100%;
-  height: calc(718px - 60px);
-  filter: blur(5px);
-}
 #header.open {
   height: 100vh;
   width: 100%;
@@ -667,6 +662,12 @@ li {
   100% {
     transform: translateX(0);
   }
+}
+
+.bur-effect {
+  width: 100%;
+  height: calc(718px - 60px);
+  filter: blur(5px);
 }
 
 #header.open .logo {
