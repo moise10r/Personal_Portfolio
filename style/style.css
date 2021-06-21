@@ -651,6 +651,17 @@ li {
   position: absolute;
   opacity: 0.96;
   z-index: 1;
+  animation: slide 1s ease-out;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-100vw);
+  }
+
+  100% {
+    transform: translateX(100vw);
+  }
 }
 
 #header.open .logo {
