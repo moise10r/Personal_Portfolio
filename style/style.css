@@ -141,6 +141,16 @@ li {
   align-items: center;
   overflow: hidden;
   background-color: #fff;
+  position: fixed;
+  z-index: 999;
+}
+
+#header .bar {
+  display: none;
+}
+
+#header.open .bar {
+  display: block;
 }
 
 .logo {
