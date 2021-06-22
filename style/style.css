@@ -149,12 +149,12 @@ li {
   box-shadow: -3px -2px 35px 11px rgba(0, 0, 0, 0.15);
 }
 
-#header .bar {
-  display: none;
-}
-
 #header.open .bar {
   display: block;
+}
+
+#header .bar {
+  display: none;
 }
 
 .logo {
@@ -721,7 +721,7 @@ li {
   color: rgb(255, 255, 255);
 }
 
-.bar {
+/* .bar {
   position: absolute;
   bottom: 1rem;
   height: 5px;
@@ -730,7 +730,7 @@ li {
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #0d151e;
-}
+} */
 
 /* Media queries */
 
