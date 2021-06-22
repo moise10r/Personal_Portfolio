@@ -145,6 +145,10 @@ li {
   z-index: 999;
 }
 
+#header.shadow {
+  box-shadow: -3px -2px 35px 11px rgba(0,0,0,0.15);
+}
+
 #header .bar {
   display: none;
 }
@@ -644,17 +648,6 @@ li {
   border: 1px solid #f7893a;
 }
 
-.bar {
-  position: absolute;
-  bottom: 1rem;
-  height: 5px;
-  width: 135px;
-  border-radius: 10px;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #0d151e;
-}
-
 #header.open {
   height: 100vh;
   width: 100%;
@@ -665,6 +658,17 @@ li {
   z-index: 1;
   animation: slide 1s ease-out;
   position: fixed;
+}
+
+.bar {
+  position: absolute;
+  bottom: 1rem;
+  height: 5px;
+  width: 135px;
+  border-radius: 10px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #0d151e;
 }
 
 @keyframes slide {
