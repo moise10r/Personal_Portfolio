@@ -157,6 +157,17 @@ li {
   display: block;
 }
 
+.bar {
+  position: absolute;
+  bottom: 1rem;
+  height: 5px;
+  width: 135px;
+  border-radius: 10px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #0d151e;
+}
+
 .logo {
   padding-left: 2rem;
 }
@@ -657,17 +668,6 @@ li {
   z-index: 1;
   animation: slide 1s ease-out;
   position: fixed;
-}
-
-.bar {
-  position: absolute;
-  bottom: 1rem;
-  height: 5px;
-  width: 135px;
-  border-radius: 10px;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #0d151e;
 }
 
 @keyframes slide {
