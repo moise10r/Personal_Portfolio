@@ -146,16 +146,16 @@ li {
 }
 
 #header.shadow {
-  box-shadow: -3px -2px 35px 11px rgba(0,0,0,0.15);
+  box-shadow: -3px -2px 35px 11px rgba(0, 0, 0, 0.15);
 }
 
-/* #header .bar {
+#header .bar {
   display: none;
 }
 
 #header.open .bar {
   display: block;
-} */
+}
 
 .logo {
   padding-left: 2rem;
