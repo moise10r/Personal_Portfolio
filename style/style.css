@@ -708,6 +708,7 @@ li {
   align-items: center;
   top: 2rem;
   right: 2rem;
+  cursor: pointer;
 }
 
 #header.open .navbar .close .fa {
