@@ -67,7 +67,7 @@ const data = [
     },
     fullDesciption: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     detail: 'Exploring the future of media in Facebooks first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
-    technologies: ['Html', 'Css', 'Ruby on Rails', 'Javascript'],
+    technologies: ['Html', 'Css', 'Javascript'],
     liveDemo: 'https://moise10r.github.io/Personal_Portfolio/',
     sourceCode: 'https://github.com/moise10r/Personal_Portfolio',
   },

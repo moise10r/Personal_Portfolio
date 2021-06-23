@@ -25,6 +25,15 @@ body {
   position: relative;
 }
 
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background:  #5e5f5f;
+  border-radius: 6px;
+}
+
 a {
   text-decoration: none;
   cursor: pointer;
