@@ -46,6 +46,7 @@ menuButtonClose.addEventListener('click', toggle);
 const form = document.getElementById('contact-form');
 const email = document.getElementById('email');
 const errorMess = document.querySelector('small');
+
 form.addEventListener('submit', (e) => {
   const emailValue = email.value;
   const message = [];

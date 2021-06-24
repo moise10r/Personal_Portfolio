@@ -672,6 +672,12 @@ li {
   color: #fff;
 }
 
+.contact-main-container form .form-group li button.disabled {
+  border: 1px solid#5E6c84;
+  color: #5e6c84;
+  cursor: text;
+}
+
 .contact-main-container form .form-group li button:focus {
   transform: translateY(5px) scale(0.95);
   background-color: rgb(32, 32, 146);
