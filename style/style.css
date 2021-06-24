@@ -29,14 +29,23 @@ body {
   position: relative;
 }
 
-a {
-  text-decoration: none;
-  cursor: pointer;
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #5e5f5f;
+  border-radius: 6px;
 }
 
 input {
   outline: none;
   border: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
 }
 
 ul {
@@ -151,7 +160,7 @@ li {
 #header {
   width: 100%;
   height: 60px;
-  display: flex;
+  display: none;
   justify-content: space-between;
   align-items: center;
   overflow: hidden;
@@ -164,12 +173,8 @@ li {
   box-shadow: -3px -2px 35px 11px rgba(0, 0, 0, 0.15);
 }
 
-#header .bar {
-  display: none;
-}
-
 #header.open .bar {
-  display: block;
+  display: flex;
 }
 
 .logo {
@@ -362,10 +367,7 @@ li {
 }
 
 .card-work .languages li {
-  padding: 0.12rem 0.75rem;
-  background-color: #ebebff;
-  border-radius: 8px;
-  margin-right: 2rem;
+  display: none;
 }
 
 .card-work .languages li a {
@@ -529,10 +531,6 @@ li {
   font-size: 15px;
 }
 
-.card-work .languages li.hide {
-  display: none;
-}
-
 .contact-section {
   width: 100%;
   background-color: #fff;
@@ -674,6 +672,16 @@ li {
   position: fixed;
 }
 
+.card-work .languages li:nth-child(1),
+.card-work .languages li:nth-child(2),
+.card-work .languages li:nth-child(3) {
+  padding: 0.12rem 0.75rem;
+  background-color: #ebebff;
+  border-radius: 8px;
+  margin-right: 2rem;
+  display: block;
+}
+
 @keyframes slide {
   0% {
     transform: translateX(-100vw);
@@ -715,6 +723,7 @@ li {
   align-items: center;
   top: 2rem;
   right: 2rem;
+  cursor: pointer;
 }
 
 #header.open .navbar .close .fa {
@@ -871,6 +880,14 @@ li {
     object-fit: fill;
   }
 
+  .card-work .languages li {
+    padding: 0.12rem 0.75rem;
+    background-color: #ebebff;
+    border-radius: 8px;
+    margin-right: 2rem;
+    display: block;
+  }
+
   .knowledge .kn_1 {
     max-width: 480px;
   }
@@ -950,10 +967,6 @@ li {
 
   .card-work .see-project {
     margin-top: 4rem;
-  }
-
-  .card-work .languages li.hide {
-    display: block;
   }
 
   .about-me {
