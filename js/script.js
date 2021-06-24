@@ -46,10 +46,8 @@ menuButtonClose.addEventListener('click', toggle);
 const form = document.getElementById('contact-form');
 const email = document.getElementById('email');
 const errorMess = document.querySelector('small');
-console.log(errorMess);
 form.addEventListener('submit', (e) => {
   const emailValue = email.value;
-  console.log(emailValue);
   const message = [];
   if (emailValue === '') {
     message.push('The Email must not be empty');
