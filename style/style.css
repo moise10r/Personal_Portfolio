@@ -352,10 +352,17 @@ li {
 }
 
 .card-work .languages li {
+  display: none;
+}
+
+.card-work .languages li:nth-child(1),
+.card-work .languages li:nth-child(2),
+.card-work .languages li:nth-child(3) {
   padding: 0.12rem 0.75rem;
   background-color: #ebebff;
   border-radius: 8px;
   margin-right: 2rem;
+  display: block;
 }
 
 .card-work .languages li a {
@@ -517,10 +524,6 @@ li {
 .knowledge .frameworks li a {
   color: #253858;
   font-size: 15px;
-}
-
-.card-work .languages li.hide {
-  display: none;
 }
 
 .contact-section {
@@ -867,11 +870,18 @@ li {
     width: 85%;
     max-width: 480px;
   }
-
   .card-work .portfolio-img img {
     height: 100%;
     width: 100%;
     object-fit: fill;
+  }
+
+  .card-work .languages li {
+    padding: 0.12rem 0.75rem;
+    background-color: #ebebff;
+    border-radius: 8px;
+    margin-right: 2rem;
+    display: block;
   }
 
   .knowledge .kn_1 {
@@ -953,10 +963,6 @@ li {
 
   .card-work .see-project {
     margin-top: 4rem;
-  }
-
-  .card-work .languages li.hide {
-    display: block;
   }
 
   .about-me {

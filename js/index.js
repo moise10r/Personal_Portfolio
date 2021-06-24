@@ -40,7 +40,7 @@ data.forEach((card) => {
 const cardPopupWindow = document.querySelector('.card-popup-window');
 const seeProjectBtn = document.querySelectorAll('.see-project .btn');
 const seeProjectImg = document.querySelectorAll('.card-work .portfolio-img');
-const closedWind = document.querySelector('.card-popup-window .main-container .close');
+const closedWind = document.querySelector('.card-popup-window .popup-main-container .main-container .close');
 
 const arr = [seeProjectBtn, seeProjectImg];
 arr.forEach((item) => {
@@ -49,7 +49,7 @@ arr.forEach((item) => {
       e.preventDefault();
       cardPopupWindow.classList.add('open-pop-up');
       const filteredCard = data.filter((card) => card.id === Number(link.dataset.indexNumber));
-      const title = document.querySelector('.card-popup-window .main-container .title h2');
+      const title = document.querySelector('.card-popup-window .popup-main-container .main-container .title h2');
       const info = document.querySelectorAll('.card-popup-window .main-container .info span');
       const img = document.querySelector('.card-popup-window .main-container .portfolio-img img');
       const detail = document.querySelector('.card-popup-window .main-container .detail p');
