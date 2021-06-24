@@ -34,14 +34,14 @@ body {
   border-radius: 6px;
 }
 
-a {
-  text-decoration: none;
-  cursor: pointer;
-}
-
 input {
   outline: none;
   border: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
 }
 
 ul {
