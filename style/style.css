@@ -355,16 +355,6 @@ li {
   display: none;
 }
 
-.card-work .languages li:nth-child(1),
-.card-work .languages li:nth-child(2),
-.card-work .languages li:nth-child(3) {
-  padding: 0.12rem 0.75rem;
-  background-color: #ebebff;
-  border-radius: 8px;
-  margin-right: 2rem;
-  display: block;
-}
-
 .card-work .languages li a {
   font-weight: 500;
   font-size: 12px;
@@ -677,6 +667,16 @@ li {
   z-index: 1;
   animation: slide 1s ease-out;
   position: fixed;
+}
+
+.card-work .languages li:nth-child(1),
+.card-work .languages li:nth-child(2),
+.card-work .languages li:nth-child(3) {
+  padding: 0.12rem 0.75rem;
+  background-color: #ebebff;
+  border-radius: 8px;
+  margin-right: 2rem;
+  display: block;
 }
 
 @keyframes slide {
