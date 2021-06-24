@@ -144,7 +144,7 @@
 .main-container .links .btn span:nth-child(1) {
   margin-right: 5px;
   flex-wrap: nowrap;
-} 
+}
 
 .card-popup-window .close {
   position: absolute;
@@ -182,7 +182,7 @@
 
 @media screen and (min-width: 768px) {
   .card-popup-window .left-container .detail {
-      padding: 0 4rem;
+    padding: 0 4rem;
   }
 
   .card-popup-window .main-container .title {
@@ -202,18 +202,17 @@
   }
 
   .card-popup-window .main-container .portfolio-img img {
-    max-width:80%;
+    max-width: 80%;
   }
 }
 
 @media screen and (min-width: 992px) {
-
   .card-popup-window .main-container {
-      max-width: 890px;
+    max-width: 890px;
   }
 
   .card-popup-window .main-container .title {
-    padding-top: 0rem;
+    padding-top: 0;
   }
 
   .card-popup-window .main-container .title h2 {
@@ -221,7 +220,7 @@
   }
 
   .card-popup-window .main-container .portfolio-img img {
-    max-width:85%;
+    max-width: 85%;
     max-height: 400px;
   }
 
@@ -246,7 +245,6 @@
   .card-popup-window .about-links .links {
     justify-content: center;
     align-items: center;
-
   }
 
   .card-popup-window .about-links .links .btn {
@@ -258,5 +256,4 @@
   .card-popup-window .about-links .links .btn:first-child {
     margin-right: 0.9rem;
   }
-  
 }
