@@ -615,6 +615,10 @@ li {
   font-size: 18px;
 }
 
+.contact-main-container form .form-group li small.show-message {
+  display: flex;
+}
+
 .contact-main-container form .form-group li input {
   text-indent: 1.8rem;
   height: 48px;
@@ -663,16 +667,20 @@ li {
 }
 
 .contact-main-container form .form-group li button:hover {
-  transform: translateY(10px) scale(1);
+  transform: translateY(5px) scale(0.95);
+  background-color: rgb(32, 32, 146);
+  color: #fff;
 }
 
 .contact-main-container form .form-group li button:focus {
-  transform: translateY(10px) scale(1);
+  transform: translateY(5px) scale(0.95);
+  background-color: rgb(32, 32, 146);
+  color: #fff;
 }
 
 .contact-main-container form .form-group li input:focus,
 .contact-main-container form .form-group li textarea:focus {
-  border: 1px solid #f7893a;
+  border: 2px solid rgb(29, 133, 29);
 }
 
 #header.open {
