@@ -601,6 +601,20 @@ li {
   justify-self: center;
 }
 
+.contact-main-container form .form-group li small {
+  width: 90%;
+  height: 45px;
+  background-color: rgb(240, 240, 94);
+  margin-top: 2rem;
+  border-radius: 2rem;
+  position: relative;
+  color: rgba(247, 56, 56, 0.712);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
 .contact-main-container form .form-group li input {
   text-indent: 1.8rem;
   height: 48px;
