@@ -6,6 +6,14 @@ const links = document.querySelectorAll('.nav-list>li');
 
 let isOpen = false;
 
+window.addEventListener('scroll', () => {
+  if (window.pageYOffset > 100) {
+    header.classList.add('shadow');
+  } else {
+    header.classList.remove('shadow');
+  }
+});
+
 function toggle() {
   if (!isOpen) {
     header.classList.add('open');
@@ -32,6 +40,5 @@ window.addEventListener('resize', () => {
   }
 });
 
-window.addEventListener('resize', () => {});
 menuButtonOpen.addEventListener('click', toggle);
 menuButtonClose.addEventListener('click', toggle);
