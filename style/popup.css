@@ -116,10 +116,8 @@
   display: none;
 }
 
-.card-popup-window .main-container .languages li:nth-child(1), 
-
-.card-popup-window .main-container .languages li:nth-child(2), 
-
+.card-popup-window .main-container .languages li:nth-child(1),
+.card-popup-window .main-container .languages li:nth-child(2),
 .card-popup-window .main-container .languages li:nth-child(3) {
   padding: 0.12rem 0.75rem;
   background-color: #ebebff;
@@ -194,6 +192,7 @@
   .card-popup-window .main-container .portfolio-img img {
     max-width: 90%;
   }
+
   .card-popup-window .main-container .links .btn {
     padding: 1rem 1.4rem;
   }
@@ -266,4 +265,4 @@
   .card-popup-window .about-links .links .btn:first-child {
     margin-right: 0.9rem;
   }
-} 
+}
