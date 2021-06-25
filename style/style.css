@@ -577,11 +577,6 @@ li {
   color: #fff;
 }
 
-.contact-main-container .detail:hover {
-  transform: translate(10px, 10px);
-  line-height: 60px;
-}
-
 .contact-main-container form {
   width: 100%;
   margin-top: 5rem;

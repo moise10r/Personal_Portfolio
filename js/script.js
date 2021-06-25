@@ -48,10 +48,23 @@ const email = document.getElementById('email');
 const errorMess = document.querySelector('small');
 const userMessage = document.getElementById('message');
 const userName = document.getElementById('name');
+const submitBtn = document.querySelector('#submit');
+const message = [];
+
+[userName, email, userName].forEach((item) => {
+  item.addEventListener('input', () => {
+    const data = {
+      name: userName.value,
+      email: email.value,
+      message: userMessage.value,
+    };
+    const dataStored = JSON.stringify(data);
+    localStorage.setItem('data', dataStored);
+  });
+});
 
 form.addEventListener('submit', (e) => {
   const emailValue = email.value;
-  const message = [];
   if (emailValue === '') {
     message.push('The Email must not be empty');
   } if (emailValue !== emailValue.toLowerCase()) {
@@ -61,25 +74,19 @@ form.addEventListener('submit', (e) => {
     errorMess.innerText = message.join(',');
     errorMess.classList.add('show-message');
   }
-
-  const data = {
-    name: userName.value,
-    email: emailValue,
-    message: userMessage.value,
-  };
-  const dataStored = JSON.stringify(data);
-  localStorage.setItem('data', dataStored);
 });
-
-window.addEventListener('load', () => {
+window.addEventListener('load', (e) => {
   const getData = JSON.parse(localStorage.getItem('data'));
   userName.value = getData.name;
   email.value = getData.email;
   userMessage.value = getData.message;
+  if (e.target.value !== e.target.value.toLowerCase()) {
+    submitBtn.classList.add('disabled');
+    submitBtn.classList.remove('hover');
+  }
 });
 
-const submitBtn = document.querySelector('#submit');
-email.addEventListener('change', (e) => {
+email.addEventListener('input', (e) => {
   if (e.target.value !== e.target.value.toLowerCase()) {
     submitBtn.classList.add('disabled');
     submitBtn.classList.remove('hover');
