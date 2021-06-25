@@ -24,7 +24,7 @@ data.forEach((card) => {
     </div>
     <ul class="languages">
     ${(function technoUsed() {
-    return card.technologies.map((technology) => `<li><a href="#">${technology}</a></li>`);
+    return card.technologies.map((technology) => `<li><a href="#">${technology}</a></li>`).join('');
   }())}
   
     </ul>
