@@ -60,3 +60,14 @@ form.addEventListener('submit', (e) => {
     errorMess.classList.add('show-message');
   }
 });
+
+const submitBtn = document.querySelector('#submit');
+email.addEventListener('change', (e) => {
+  if (e.target.value !== e.target.value.toLowerCase()) {
+    submitBtn.classList.add('disabled');
+    submitBtn.classList.remove('hover');
+  } else {
+    submitBtn.classList.remove('disabled');
+    submitBtn.classList.add('hover');
+  }
+});
