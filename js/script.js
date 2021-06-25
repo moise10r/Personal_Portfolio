@@ -46,6 +46,8 @@ menuButtonClose.addEventListener('click', toggle);
 const form = document.getElementById('contact-form');
 const email = document.getElementById('email');
 const errorMess = document.querySelector('small');
+const userMessage = document.getElementById('message');
+const userName = document.getElementById('name');
 
 form.addEventListener('submit', (e) => {
   const emailValue = email.value;
@@ -59,8 +61,7 @@ form.addEventListener('submit', (e) => {
     errorMess.innerText = message.join(',');
     errorMess.classList.add('show-message');
   }
-  const userMessage = document.getElementById('message');
-  const userName = document.getElementById('name');
+
   const data = {
     name: userName.value,
     email: emailValue,
@@ -76,4 +77,3 @@ window.addEventListener('load', () => {
   email.value = getData.email;
   userMessage.value = getData.message;
 });
-
