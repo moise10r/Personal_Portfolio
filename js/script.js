@@ -69,3 +69,11 @@ form.addEventListener('submit', (e) => {
   const dataStored = JSON.stringify(data);
   localStorage.setItem('data', dataStored);
 });
+
+window.addEventListener('load', () => {
+  const getData = JSON.parse(localStorage.getItem('data'));
+  userName.value = getData.name;
+  email.value = getData.email;
+  userMessage.value = getData.message;
+});
+
