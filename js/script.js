@@ -59,4 +59,13 @@ form.addEventListener('submit', (e) => {
     errorMess.innerText = message.join(',');
     errorMess.classList.add('show-message');
   }
+  const userMessage = document.getElementById('message');
+  const userName = document.getElementById('name');
+  const data = {
+    name: userName.value,
+    email: emailValue,
+    message: userMessage.value,
+  };
+  const dataStored = JSON.stringify(data);
+  localStorage.setItem('data', dataStored);
 });
