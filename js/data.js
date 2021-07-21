@@ -3,9 +3,9 @@ const data = [
   {
     id: 2,
     image: 'images/cap.png',
-    name: 'Multi-Post Stories',
+    name: 'Honesty Adoption',
     description: {
-      type: 'Honesty Adoption',
+      type: 'Adoption',
       interface: 'Frontend Dev',
       year: 2015,
     },
