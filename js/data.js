@@ -1,11 +1,11 @@
 const data = [
   {
     id: 2,
-    image: 'images/Portfolio_2.png',
+    image: 'images/cap.png',
     name: 'Multi-Post Stories',
     description: {
-      type: 'FACEBOOK',
-      interface: 'Full Stack Dev',
+      type: 'Honesty Adoption',
+      interface: 'Frontend Dev',
       year: 2015,
     },
     fullDesciption: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
@@ -14,12 +14,9 @@ const data = [
       'Html',
       'Css',
       'Javascript',
-      'github',
-      'Ruby',
-      'Bootstrap',
     ],
-    liveDemo: 'https://moise10r.github.io/Personal_Portfolio/',
-    sourceCode: 'https://github.com/moise10r/Personal_Portfolio',
+    liveDemo: 'https://moise10r.github.io/Capstone_Project_Module_One/index.html',
+    sourceCode: 'https://github.com/moise10r/Capstone_Project_Module_One',
   },
   {
     id: 3,
