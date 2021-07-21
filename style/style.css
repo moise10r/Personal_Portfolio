@@ -313,6 +313,8 @@ li {
 .card-work .portfolio-img {
   width: 100%;
   text-align: center;
+  border-radius: 1rem;
+  overflow: hidden;
 }
 
 .card-work .portfolio-img img {
