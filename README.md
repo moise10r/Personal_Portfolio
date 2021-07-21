@@ -6,12 +6,12 @@
 ![home_page](https://user-images.githubusercontent.com/57562869/121547713-aca75d80-ca0c-11eb-921f-0286bf87b782.png)
 
 ## live demo
-- this is the link for the live demo
-https://moise10r.github.io/Personal_Portfolio/
+[the live demo](https://moise10r.github.io/Personal_Portfolio/)
+
 ## Materials required for validation
 
 - follow this link :
-  https://github.com/microverseinc/linters-config/tree/master/html-css
+ [Linters link]( https://github.com/microverseinc/linters-config/tree/master/html-css)
 
 ## Built With
 
